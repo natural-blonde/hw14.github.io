@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+}
+
+.container{
+  display: flex;
+}
+
+.left, .right{
+  width: 50%;
+}
+
+.left{
+  margin-left: 5%;
+}
+
+#login, #email, #password{
+  width: 600px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#email{
+  margin-right: 30px;
+}
+
+#login, #email, #password{
+  border: 2px solid #dadada;
+  border-radius: 5px;
+}
+
+#login:focus, #email:focus, #password:focus { 
+  outline: none;
+  border-color: #9ecaed;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
+tr th, td{
+  padding: 10px;
+  border-top: 1px solid #dadada;
+  border-bottom: 1px solid #dadada;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#add-user{
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+#add-user:hover{
+  background-color: green;
+  color: white;
+}
+
+#add-user:focus { 
+  outline: none;
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
+#editBtn {
+  padding: 5px 10px;
+  background-color: orange;
+}
+
+#deleteBtn{
+  padding: 5px 10px;
+  background-color: red;
+  color: #fff;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+}
+
+#edit-user {
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 5px;
+}
+
+#edit-user:hover{
+  background-color: green;
+  color: white;
+}
+
+#edit-user:focus { 
+  outline: none;
+  border-color: green;
+  box-shadow: 0 0 10px green;
+}
+
